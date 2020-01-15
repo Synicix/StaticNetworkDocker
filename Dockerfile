@@ -13,3 +13,5 @@ RUN git clone https://github.com/cajal/neuro_data.git && \
 
 RUN git clone https://github.com/cajal/featurevis.git && \
     pip3 install featurevis/
+
+WORKDIR /src
